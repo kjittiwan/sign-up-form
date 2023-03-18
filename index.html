@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="sidebar">
+    <div class="logo-container">
+      <img src="./images/odin.png" alt="odin-logo">
+      <h1 class="logo-text">Sign up form</h1> 
+    </div>
+    <p>Photo by <a href="https://unsplash.com/@jonasjacobsson">Jonas Jacobsson</a> on <a href="https://unsplash.com/photos/kOllkRkWmGY">Unsplash</a></p> 
+
+    
+  </div>
+  <div id="main">
+    <div class="header">
+      <div class="text-container">
+        <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.<br>Sign up <em>now</em> to get started</p>
+        <p>You <em>know</em> you want to.</p>
+      </div>
+      
+    </div>
+    <div class="body">
+      <h2>Let's do this!</h2>
+      <form id="signup_form">
+        <div class="col1">
+            <div class="input-field">
+              <label for="first_name">FIRST NAME</label><br>
+              <input type="text" id="first_name" name="first_name" required>
+            </div>
+            <div class="input-field">
+              <label for="email">EMAIL</label><br>
+              <input type="email" id="email" name="email">
+            </div>
+            <div class="input-field error">
+              <label for="password">PASSWORD</label><br>
+              <input type="password" id="password" name="password" required>
+              <div class="error-message">*Passwords do not match</div>
+            </div>
+        </div>
+        <div class="col2">
+          <div class="input-field">
+            <label for="last_name">LAST NAME</label><br>
+            <input type="text" id="last_name" name="last_name">
+          </div>
+          <div class="input-field">
+            <label for="phone">PHONE NUMBER</label><br>
+            <input type="tel" id="phone" name="phone">
+          </div>
+          <div class="input-field error">
+            <label for="confirm_password">CONFIRM PASSWORD</label><br>
+            <input type="password" id="confirm_password" name="confirm_password" required>
+          </div>
+        </div>        
+      </form>
+    </div>
+    <div class="footer">
+      <button type="submit" form="signup_form">Create Account</button>
+      <p>Already have an account? <a href="">Log in</a></p>
+      
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,176 @@
+@font-face {
+  font-family: Voga;
+  src: url(./fonts/CDType\ -\ Voga\ Medium.ttf);
+}
+
+:root{
+  font-size:20px;
+  box-sizing: border-box;
+  color: black;
+  font-family: 'Helvetica', sans-serif;
+}
+
+
+
+body{
+  display: flex;
+  background-color: #F9FAFB;
+  margin: 0;
+  padding: 0;
+}
+#sidebar{ 
+  position: relative;
+  width: 40vw;
+  height: 100vh;
+  background-image:url("./images/mountain.jpg") ;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+}
+
+.logo-container{
+  height: 20%;
+  width: 100%;
+  position: absolute;
+  top:35.65%; 
+  background-color: black;
+  opacity: 0.7;
+  display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+#sidebar p{
+  position: absolute;
+  color: white;
+  font-size: 12px;
+  bottom: 0;
+  right: 1rem;
+ 
+}
+#sidebar p>a{
+  text-decoration: none;
+  color: inherit;
+  text-decoration: underline;
+}
+
+  
+
+.logo-text{
+  font-family:Voga; 
+  font-size: 3rem;
+  color: white;
+
+}
+
+img[alt="odin-logo"]{
+  width: 4rem;
+  height: auto;
+  margin-right: 1rem;
+ 
+}
+#main{
+  width: 70vw;
+}
+.header{
+
+  height: 35%;
+  display: flex;
+  align-items: end;
+  margin-left: 2rem;
+  margin-bottom: 5px;
+}
+.text-container{
+  width: 70%;
+  flex-wrap: wrap;
+  font-size: 20px;
+  font-weight: 600;
+
+
+}
+.body{
+  height: 35%;
+  box-shadow: 2px 4px 6px rgb(198, 198, 198);
+  background-color: #FFFFFF;
+  color: #262F3D;
+  font-size:18px ;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  padding-left: 2rem;
+}
+label{
+  font-size: 12px;
+  
+}
+
+form{
+  display: flex;
+  justify-content: center;
+
+  
+}
+input{
+  margin-right: 2rem;
+  width: 250px;
+  line-height: 1rem;
+  appearance: none;
+  border-style: solid;
+  border-color: #e4e6e9;
+  border-radius: 6px;
+  border-width: 1px;
+  margin-top: 2px;
+
+  
+}
+input:focus{
+  outline: none;
+  border: solid #446BDD;
+  box-shadow: 2px 4px 6px rgb(185, 184, 184) ;
+  border-radius: 6px;
+  border-width: 1px;
+}
+
+.error input{
+  outline: none;
+  border: solid rgb(235, 61, 61);
+  border-radius: 6px;
+  border-width: 1px;
+}
+.error-message{
+  color: rgb(235, 61, 61);
+  font-size: 12px;
+}
+
+.footer{
+  height: 30%;
+  margin: 1.5em 2em;
+  font-size: 18px;
+}
+.footer button{
+  border-style: none;
+  background-color: #4F5B42;
+  color: white;
+  border-radius: 10px;
+  font-size: 18px;
+  padding: 15px 32px;
+  box-shadow: 2px 4px 6px rgb(185, 184, 184) ;
+}
+
+
+.col1>.input-field, .col2>.input-field{
+  padding-bottom: .5rem;
+  margin: 0px 0px;
+}
+.footer a{
+  text-decoration: none;
+  color: #4F5B42 ;
+}
+
+
+
